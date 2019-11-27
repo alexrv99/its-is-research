@@ -614,6 +614,28 @@ pre tt:after {
   }
 }
 
+button {
+  color: black;
+  font-weight: bold;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  display: block;
+  font-size: 22px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin: 30px;
+}
+
+button:hover {
+  filter: brightness(105%);
+  box-shadow: 0 2px 7px 0 rgba(255, 163, 0, 0.59);
+  transition: 0.3s;
+}
+
 :root {
   --background-color: #1a1a1a;
   --accent-color: #fffa29;

@@ -20,13 +20,20 @@ const Layout = ({ children, title }) => {
           <main>{children}</main>
         </div>
         <footer className="footer">
-          <h4>Créditos</h4>
-          <span>José Antonio García Dávila</span>
-          <span>Autores:</span>
-          <span>ALEJANDRO ALBERTO RAMÍREZ VILCHIS | alexrv4299@gmail.com</span>
-          <span>LUIS ANDRÉS PEÑA CASTILLO | luis14-14@hotmail.com</span>
-          <span>LUIS ÁNGEL ALVARADO DOMINGUEZ | angel_ad269@hotmail.com</span>
-          <span>VÍCTOR MARIO PADILLA MENDOZA | padillamendoza@outlook.com</span>
+          <div className="footer-text">
+            <h3>Créditos</h3>
+            <strong>Asesor</strong>
+            <span>José Antonio García Dávila</span>
+            <strong>Autores</strong>
+            <span>
+              ALEJANDRO ALBERTO RAMÍREZ VILCHIS | alexrv4299@gmail.com
+            </span>
+            <span>LUIS ANDRÉS PEÑA CASTILLO | luis14-14@hotmail.com</span>
+            <span>LUIS ÁNGEL ALVARADO DOMINGUEZ | angel_ad269@hotmail.com</span>
+            <span>
+              VÍCTOR MARIO PADILLA MENDOZA | padillamendoza@outlook.com
+            </span>
+          </div>
         </footer>
       </div>
 
@@ -41,6 +48,13 @@ const Layout = ({ children, title }) => {
           background: var(--accent-color);
           color: black;
           font-weight: 100;
+        }
+
+        .footer-text {
+          max-width: 300px;
+          display: flex;
+
+          flex-direction: column;
         }
       `}</style>
     </>
