@@ -13,7 +13,7 @@ const IndexPage = () => (
       <NavbarLink text="Objetivos" href="#objetivos" />
       <NavbarLink text="Resultados" href="#resultados" />
       <NavbarLink text="Conclusiones" href="#conclusiones" />
-      <a download href="../static/files/articulo.pdf">
+      <a href='./Articulo.pdf' download>
         Articulo
       </a>
     </nav>
