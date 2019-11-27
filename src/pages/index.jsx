@@ -185,6 +185,10 @@ const IndexPage = () => (
     <section id="conoce">
       <h2>Conoce más</h2>
 
+      <a href="/files/informe.pdf" download>
+        <button>Informe Final</button>
+      </a>
+
       <a href="/files/poster.pdf" download>
         <button>Poster</button>
       </a>
