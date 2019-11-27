@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Taller de Investigación`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `El desarrollo de software y la ingeniería de software son dos campos sumamente importantes para cualquier ingeniero en sistemas computacionales, sobre todo en estos tiempos en los que se es tan dependiente de las computadoras.`,
     author: `@gatsbyjs`,
   },
   plugins: [

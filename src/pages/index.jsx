@@ -13,11 +13,11 @@ const IndexPage = () => (
     </nav>
     <h1>El desinterés de los alumnos del ITS por la Ingeniería de Software</h1>
 
-    <p>
+    <p className="intro">
       Este es el componente computacional de la Investigación "El desinterés de
       los alumnos del ITS por la ingeniería de software". A continuación se
       presentan los resultados obtenidos tras la encuesta realizada a
-      aproximadamente 100 alumnos de la especialidad de Sistemas
+      aproximadamente setenta y siete alumnos de la especialidad de Sistemas
       Computacionales.
     </p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
@@ -128,6 +128,11 @@ const IndexPage = () => (
 
       section {
         margin: 100px 0;
+      }
+
+      .intro {
+        font-size: 1.5rem;
+        font-weight: 100;
       }
 
       .subtitle {
