@@ -13,9 +13,7 @@ const IndexPage = () => (
       <NavbarLink text="Objetivos" href="#objetivos" />
       <NavbarLink text="Resultados" href="#resultados" />
       <NavbarLink text="Conclusiones" href="#conclusiones" />
-      <a download href="../static/files/articulo.pdf">
-        Articulo
-      </a>
+      <NavbarLink text="Conoce más" href="#conoce" />
     </nav>
     <h1>El desinterés de los alumnos del ITS por la Ingeniería de Software</h1>
 
@@ -136,11 +134,6 @@ const IndexPage = () => (
 
     <section>
       <h2 id="conclusiones">Conclusiones</h2>
-      <p>
-        En esta sección se da respuesta a las preguntas de hipótesis planteadas
-        inicialmente. Tomando en cuenta los resultados obtenidos, podemos
-        obtener las siguientes conclusiones:
-      </p>
       <ul>
         <li>
           No existe un desinterés generalizado de los alumnos de sistemas
@@ -189,8 +182,20 @@ const IndexPage = () => (
       </ul>
     </section>
 
-    <section>
+    <section id="conoce">
       <h2>Conoce más</h2>
+
+      <a href="/files/poster.pdf" download>
+        <button>Poster</button>
+      </a>
+
+      <a href="/files/articulo.pdf" download>
+        <button>Artículo</button>
+      </a>
+    </section>
+
+    <section>
+      <h2>Bibliografía</h2>
       <ol>
         <li>
           Schmelkes, Corina y Elizondo Schmelkes, Nora. 2010.{" "}
