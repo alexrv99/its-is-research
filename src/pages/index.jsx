@@ -46,7 +46,7 @@ const IndexPage = () => (
     </section>
 
     <section>
-      <h2>Objetivos</h2>
+      <h2 id="objetivos">Objetivos</h2>
       <p>
         Conocer aproximadamente cuántas personas aspiran a ser desarrolladores
         de software o estar involucrados de alguna manera en su producción, así
@@ -222,13 +222,18 @@ const IndexPage = () => (
       <li>
         Flores Torres, Iván, González Cruz Graciela y Rodríguez Rivera, Isela.
         2007. “Estrategias de Enseñanza Para Abatir La Apatía Del Alumno de
-        Secundaria”. <i>Revista Iberoamericana Para la Investigación y el
-        Desarrollo Educativo.</i> Enero - Junio 2013. Publicación #10. s/l
+        Secundaria”.{" "}
+        <i>
+          Revista Iberoamericana Para la Investigación y el Desarrollo
+          Educativo.
+        </i>{" "}
+        Enero - Junio 2013. Publicación #10. s/l
       </li>
       <li>
-        Monje Álvarez, Carlos Arturo. 2011. <i>Metodología De La Investigación
-        Cuantitativa Y Cualitativa.</i> Universidad Surcolombiana, Facultad de
-        Ciencias Sociales y Humanas. Neiva, Colombia.
+        Monje Álvarez, Carlos Arturo. 2011.{" "}
+        <i>Metodología De La Investigación Cuantitativa Y Cualitativa.</i>{" "}
+        Universidad Surcolombiana, Facultad de Ciencias Sociales y Humanas.
+        Neiva, Colombia.
       </li>
       <li>
         Robles, Francia. Lifeder. Los 15 Tipos de Investigación Científica y sus
@@ -243,7 +248,10 @@ const IndexPage = () => (
       </li>
       <li>
         The R Foundation. R Project. What is R? Obtenida el 6 de octubre de
-        2019. <a href="https://www.r-project.org/about.html" target="_blank">Página web</a>
+        2019.{" "}
+        <a href="https://www.r-project.org/about.html" target="_blank">
+          Página web
+        </a>
       </li>
     </ol>
     <style jsx>{`
