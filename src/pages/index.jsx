@@ -9,6 +9,7 @@ const IndexPage = () => (
     <div className="navbar">
       <NavbarLink text="Resultados" />
       <NavbarLink text="Conclusiones" />
+      <NavbarLink text="Artículo" />
       <NavbarLink text="Autores" />
     </div>
     <h1>El desinterés de los alumnos del ITS por la Ingeniería de Software</h1>
@@ -28,11 +29,17 @@ const IndexPage = () => (
     <h2>Gráficos</h2>
     <p>Aquí se presentarán las gráficas y figuras visuales</p>
     <h2>Conclusiones</h2>
+    <p>
+      En esta sección se da respuesta a las preguntas de hipótesis planteadas
+      inicialmente. Tomando en cuenta los resultados obtenidos,
+      podemos obtener las siguientes conclusiones.
+    </p>
 
     <style jsx>{`
       .navbar {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 20px;
       }
 
       .subtitle {
