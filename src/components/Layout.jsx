@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import SEO from "../components/seo"
+import SEO from "./Seo"
 import "./layout.css"
 import NavbarLink from "./NavbarLink"
 
@@ -20,6 +20,7 @@ const Layout = ({ children, title }) => {
           <main>{children}</main>
         </div>
         <footer className="footer">
+          <h4>Créditos</h4>
           <span>José Antonio García Dávila</span>
           <span>Autores:</span>
           <span>ALEJANDRO ALBERTO RAMÍREZ VILCHIS | alexrv4299@gmail.com</span>
