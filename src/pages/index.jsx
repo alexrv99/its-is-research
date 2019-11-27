@@ -196,6 +196,10 @@ const IndexPage = () => (
       <a href="/files/articulo.pdf" download>
         <button>Artículo</button>
       </a>
+
+      <a href="/files/encuesta.pdf" download>
+        <button>Instrumento de investigación</button>
+      </a>
     </section>
 
     <section>
