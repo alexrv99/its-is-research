@@ -9,7 +9,7 @@ const IndexPage = () => (
     <nav>
       <NavbarLink text="Resultados" href="#resultados" />
       <NavbarLink text="Objetivos" href="#objetivos" />
-      <a download href="../statics/files/articulo.pdf">Articulo</a>
+      <a download href="../static/files/articulo.pdf">Articulo</a>
       <NavbarLink text="Conclusiones" href="#conclusiones" />
     </nav>
     <h1>El desinterés de los alumnos del ITS por la Ingeniería de Software</h1>
