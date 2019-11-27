@@ -33,6 +33,8 @@ const Layout = ({ children, title }) => {
             <span>
               VÍCTOR MARIO PADILLA MENDOZA | padillamendoza@outlook.com
             </span>
+            <br />
+            <p>Realizado en el periodo Agosto - Diciembre 2019</p>
           </div>
         </footer>
       </div>
