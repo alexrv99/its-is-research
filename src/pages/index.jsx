@@ -200,6 +200,13 @@ const IndexPage = () => (
       <a href="/files/encuesta.pdf" download>
         <button>Instrumento de investigación</button>
       </a>
+
+      <a
+        href="https://docs.google.com/presentation/d/1Hs_XOH9ad8wlEGlAVrzh12S38K84IfwcNXVHM81Kd7g/edit?usp=sharing"
+        target="_blank"
+      >
+        <button>Presentación</button>
+      </a>
     </section>
 
     <section>
