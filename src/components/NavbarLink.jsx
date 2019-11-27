@@ -11,17 +11,16 @@ const NavbarLink = props => {
       <style jsx>{`
         .link {
           cursor: pointer;
-          color: lightgray;
         }
 
         .link:hover {
-          color: white;
+          filter: brightness(90%);
         }
 
         .bar {
           height: 2px;
           width: 30px;
-          background-color: lightgray;
+          background-color: var(--text-color);
         }
       `}</style>
     </>
