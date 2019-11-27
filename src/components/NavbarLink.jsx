@@ -4,7 +4,7 @@ const NavbarLink = props => {
   return (
     <>
       <div className="link">
-        <a>{props.text}</a>
+        <a href={props.href}>{props.text}</a>
         <div className="bar"></div>
       </div>
 
