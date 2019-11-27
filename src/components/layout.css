@@ -615,7 +615,7 @@ pre tt:after {
 }
 
 :root {
-  --background-color: black;
+  --background-color: #1a1a1a;
   --accent-color: #fffa29;
   --text-color: white;
 }
@@ -624,6 +624,6 @@ pre tt:after {
   :root {
     --background-color: white;
     --accent-color: #ffa600;
-    --text-color: black;
+    --text-color: #1a1a1a;
   }
 }

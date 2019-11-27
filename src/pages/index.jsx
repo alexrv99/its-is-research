@@ -1,6 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
 import NavbarLink from "../components/NavbarLink"
+import AreasGraph from "../../assets/icons/especialidades.svg"
+import ReadyGraph from "../../assets/icons/ready.svg"
+import IndustryGraph from "../../assets/icons/industry.svg"
 
 const IndexPage = () => (
   <Layout
@@ -9,7 +12,9 @@ const IndexPage = () => (
     <nav>
       <NavbarLink text="Resultados" href="#resultados" />
       <NavbarLink text="Objetivos" href="#objetivos" />
-      <a download href="../static/files/articulo.pdf">Articulo</a>
+      <a download href="../static/files/articulo.pdf">
+        Articulo
+      </a>
       <NavbarLink text="Conclusiones" href="#conclusiones" />
     </nav>
     <h1>El desinterés de los alumnos del ITS por la Ingeniería de Software</h1>
@@ -107,9 +112,26 @@ const IndexPage = () => (
       </ul>
     </section>
 
-    <section>
+    <section className="graphs">
       <h2 id="resultados">Resultados</h2>
-      <p>Aquí se presentarán las gráficas y figuras visuales</p>
+
+      <div className="graph">
+        <p>Especialidad preferida</p>
+        <AreasGraph />
+      </div>
+
+      <div className="graph">
+        <p>
+          ¿Te sientes preparado para trabajar como desarrollador web saliendo
+          del tec?
+        </p>
+        <ReadyGraph />
+      </div>
+
+      <div className="graph">
+        <p>¿En qué industria aspiras trabajar?</p>
+        <IndustryGraph />
+      </div>
     </section>
 
     <section>
@@ -241,6 +263,14 @@ const IndexPage = () => (
 
       section {
         margin: 100px 0;
+      }
+
+      .graphs {
+        text-align: center;
+      }
+
+      .graph {
+        margin: 70px 0;
       }
 
       .intro {
