@@ -186,12 +186,12 @@ const IndexPage = () => (
       <li>
         Flores Torres, Iván, González Cruz Graciela y Rodríguez Rivera, Isela.
         2007. “Estrategias de Enseñanza Para Abatir La Apatía Del Alumno de
-        Secundaria”. Revista Iberoamericana Para la Investigación y el
-        Desarrollo Educativo. Enero - Junio 2013. Publicación #10. s/l
+        Secundaria”. <i>Revista Iberoamericana Para la Investigación y el
+        Desarrollo Educativo.</i> Enero - Junio 2013. Publicación #10. s/l
       </li>
       <li>
-        Monje Álvarez, Carlos Arturo. 2011. Metodología De La Investigación
-        Cuantitativa Y Cualitativa. Universidad Surcolombiana, Facultad de
+        Monje Álvarez, Carlos Arturo. 2011. <i>Metodología De La Investigación
+        Cuantitativa Y Cualitativa.</i> Universidad Surcolombiana, Facultad de
         Ciencias Sociales y Humanas. Neiva, Colombia.
       </li>
       <li>
